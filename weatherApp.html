@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather App</title>
+    <link rel="stylesheet" href="weatherslyle.css">
+</head>
+<body>
+    <div class="mdiv">
+        <div class="container">
+            <h2 align="center">WEATHER FORCAST</h2>
+            <div class="form-btn" align="center">
+                <form>
+                    <input type="text" name="cname" id="cityName" placeholder="Enter a City Name" size="27" autofocus>
+                    <input type="button" name="sbmt" value="FETCH" class="fetchButon" onclick="fetchCityName()">
+                </form>
+            </div>
+            <div style="margin-top: 50px;">
+                <h1 id="city">Undefined</h1>
+                <h1 id="temp">Temp : 0°C</h1>
+                <h1 id="humidity">Humidity : 0%</h1>
+                <h1 id="wind">Wind Speed : 0km/hr</h1>
+            </div>
+        </div>
+    </div>
+    <script src="weatherscript.js">
+
+    </script>
+</body>
+</html>
